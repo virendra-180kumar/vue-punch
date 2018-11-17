@@ -1,0 +1,37 @@
+#bag{
+	background: url('./assets/img/bag.png') center no-repeat;
+	width: 200px;
+	height: 500px;
+	margin: 0 auto;
+}
+#progessbar {
+	width: 200px;
+	height: 15px;
+	border: 2px solid #000;
+	margin: auto;
+}
+#range{
+	background-color: red;
+	height: 15px;
+}
+.actions{
+	margin-top: 10px;
+	text-align: center;
+}
+.actions button{
+	padding: 5px;
+}
+#bag.ended{
+	background: url('./assets/img/bag-burst.png') center no-repeat;
+}
+.punch{
+	padding: 5px;
+    position: absolute;
+    top: 300px;
+    right: 359px;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #880000;
+    color: white;
+}
+}
